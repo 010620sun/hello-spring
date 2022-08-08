@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
-@Service @Transactional
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
     @Autowired
